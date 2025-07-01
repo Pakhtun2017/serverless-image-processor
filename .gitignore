@@ -1,10 +1,20 @@
-*.swp
-package-lock.json
-__pycache__
-.pytest_cache
-.venv
-*.egg-info
+# Ignore virtual envs
+.venv/
+venv/
+ENV/
 
-# CDK asset staging directory
-.cdk.staging
-cdk.out
+# Ignore output/build artifacts
+cdk.out/
+pillow_layer.zip
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Lambda layer build artifacts
+lambda_layer_pillow/lambda_layer_pillow/
+lambda_layer_pillow/python/
+
+# Secrets and system files
+.env
+.DS_Store
