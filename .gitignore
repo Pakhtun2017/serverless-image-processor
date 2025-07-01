@@ -18,3 +18,7 @@ lambda_layer_pillow/python/
 # Secrets and system files
 .env
 .DS_Store
+
+
+# config file
+config.yaml

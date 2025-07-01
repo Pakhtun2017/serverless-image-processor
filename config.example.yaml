@@ -1,0 +1,6 @@
+source_bucket: <source-bucket-name>
+dest_bucket: <dest-bucket-name>
+lambda_function_name: <lambda-function-name>
+dynamodb_table_name: <dynamodb-table-name
+email: <email-address>
+topic_name: <sns-topic-name>
